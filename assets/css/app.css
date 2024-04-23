@@ -22,10 +22,6 @@ h2 {
   font-size: 16px;
 }
 
-h2 + p {
-  margin-top: 1em;
-}
-
 body {
   padding: 10px;
   display: flex;
@@ -60,6 +56,12 @@ header {
   padding: 50px 0;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 blockquote {
   border-left: 4px solid #eee;
   display: flex;
@@ -90,6 +92,9 @@ blockquote img {
 
 footer {
   color: #888;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-size: 12px;
   font-style: italic;
   margin: 40px auto;
